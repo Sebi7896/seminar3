@@ -57,7 +57,7 @@ public:
 	//Setters
 	void setNume(const char* nume) {
 
-		if (strlen(nume) > 30 || strlen(nume) < 4 || nume == nullptr) {
+		if (strlen(nume) > 30 || strlen(nume) < 4) {
 			cout << "Nume invalid!\n";
 			return;
 		}
