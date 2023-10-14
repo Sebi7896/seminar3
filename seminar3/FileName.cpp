@@ -4,7 +4,7 @@ using namespace std;
 
 class Employee {
 public:
-	int scoate
+	
 	enum StareCivila {
 		Singur,
 		Casatorit,
