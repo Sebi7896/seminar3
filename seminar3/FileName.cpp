@@ -50,7 +50,7 @@ public:
 
 	~Employee() {
 		delete[] nume;
-		//nume = nullptr;
+		nume = nullptr;
 	
 	}
 	
