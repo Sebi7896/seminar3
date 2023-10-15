@@ -169,7 +169,7 @@ public:
 
 	//getters
 	const char* getNume()  const {
-		return nume;//sau nume
+		return nume;//sau this->nume
 	}
 
 	const int getVarsta() const {
