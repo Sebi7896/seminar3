@@ -164,11 +164,8 @@ public:
 
 		this->stareCivila = stareCivila;
 	}
-	
-
-
 	//getters
-	const char* getNume()  const {
+	const char* getNume() const { //al 2 lea const pentru obiecte de tip const
 		return nume;//sau this->nume
 	}
 
