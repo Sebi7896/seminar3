@@ -168,23 +168,23 @@ public:
 
 
 	//getters
-	const char* getNume()  {
+	const char* getNume()  const {
 		return nume;//sau nume
 	}
 
-	const int getVarsta() {
+	const int getVarsta() const {
 		return varsta;
 	}
 
-	const bool getStarePermis() {
+	const bool getStarePermis() const {
 		
 		return starePermis;
 	}
 
-	const int* getCnp() {
+	const int* getCnp() const {
 		return cnp;
 	}
-	const StareCivila getStareCivila() {
+	const StareCivila getStareCivila() const {
 		return stareCivila;
 	}
 
