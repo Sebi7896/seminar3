@@ -215,7 +215,7 @@ public:
 			cout << "INVALID!";
 		}
 		cout << "\nStare civila: ";
-		Employee::afisareStareCivila(stareCivila);
+		Employee::afisareStareCivila(this->stareCivila);
 			
 		cout << "\n" << "^^^^^^^^^^^^^^^^^^^^^^^^^^";
 
@@ -230,12 +230,12 @@ int main() {
 
 	
 	Employee e1{};
-	e1.setNume("Sebastian");
-	e1.setVarsta(20);
+	e1.setNume("Ionel");
+	e1.setVarsta(23);
 	int CNP[] = { 5, 0, 3, 0, 1, 1, 4, 4, 1, 5, 6, 7, 8 };
 	e1.setCnp(CNP);
-	e1.setStarePermis(true);
-	e1.setStareCivila(Employee::StareCivila::Casatorit);
+	e1.setStarePermis(false);
+	e1.setStareCivila(Employee::StareCivila::Singur);
 	e1.afisare();
 	
 
